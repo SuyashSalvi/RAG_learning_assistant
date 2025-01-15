@@ -28,7 +28,7 @@ SNOWFLAKE_CONFIG = {
 
 # Mistral API Configuration
 MISTRAL_API_URL = "https://api.mistral.ai/v1/generate"  # Example endpoint
-MISTRAL_API_KEY = "YJx7UEgwXlGU53IsjNQ4NRxVr7CdAp0k"
+MISTRAL_API_KEY = ""
 
 # Initialize Embedding Model
 tokenizer = AutoTokenizer.from_pretrained("sentence-transformers/all-MiniLM-L6-v2")
