@@ -1,47 +1,61 @@
-Overview
+# **Personalized Learning Assistant for Complex Topics**
 
-Personalized Learning Assistant is an AI-powered tool designed to help users master complex topics with ease. By leveraging advanced technologies like Snowflake Cortex AI and Mistral LLM, this app provides tailored learning experiences through summaries, guides, FAQs, and quizzes. Whether you’re a student, a professional, or a lifelong learner, this tool adapts to your unique learning preferences and proficiency levels.
+---
 
-Features
+## **Overview**
+**Personalized Learning Assistant** is an AI-powered tool designed to help users master complex topics with ease. By leveraging advanced technologies like **Snowflake Cortex AI** and **Mistral LLM**, this app provides tailored learning experiences through summaries, guides, FAQs, and quizzes. Whether you’re a student, a professional, or a lifelong learner, this tool adapts to your unique learning preferences and proficiency levels.
 
-✅ Customizable Learning Goals:
-	•	Generate Summaries for a quick overview.
-	•	Access Step-by-Step Guides for detailed learning.
-	•	Get FAQs for common questions.
-	•	Take Quizzes to reinforce understanding.
+---
 
-✅ Semantic Search:
-	•	Retrieve the most relevant information from a large corpus of educational materials.
+## **Features**
 
-✅ Personalized Content:
-	•	Tailored content based on user proficiency levels (Beginner, Intermediate, Expert).
+✅ **Customizable Learning Goals**:  
+- Generate **Summaries** for a quick overview.  
+- Access **Step-by-Step Guides** for detailed learning.  
+- Get **FAQs** for common questions.  
+- Take **Quizzes** to reinforce understanding.  
 
-✅ Interactive Frontend:
-	•	Built with Streamlit for a smooth user experience.
+✅ **Semantic Search**:  
+- Retrieve the most relevant information from a large corpus of educational materials.
 
-✅ AI-Powered:
-	•	Uses Snowflake Cortex AI for large language model integration and semantic search.
+✅ **Personalized Content**:  
+- Tailored content based on user proficiency levels (**Beginner**, **Intermediate**, **Expert**).  
 
-Technologies Used
-	1.	Snowflake Cortex AI
-	•	Mistral LLM for text generation and content personalization.
-	•	Semantic search for retrieving relevant educational content.
-	2.	Streamlit
-	•	Interactive and user-friendly frontend.
-	3.	Sentence-Transformers
-	•	For embedding generation and indexing educational materials.
-	4.	PDFMiner
-	•	Extracting text from PDFs to create a rich knowledge base.
-	5.	Python
-	•	Backend logic for embedding, retrieval, and integration.
+✅ **Interactive Frontend**:  
+- Built with **Streamlit** for a smooth user experience.  
 
-How to Run the Project
+✅ **AI-Powered**:  
+- Uses **Snowflake Cortex AI** for large language model integration and semantic search.  
 
-1. Clone the Repository
+---
 
+## **Technologies Used**
+
+1. **Snowflake Cortex AI**  
+   - Mistral LLM for text generation and content personalization.  
+   - Semantic search for retrieving relevant educational content.  
+
+2. **Streamlit**  
+   - Interactive and user-friendly frontend.  
+
+3. **Sentence-Transformers**  
+   - For embedding generation and indexing educational materials.  
+
+4. **PDFMiner**  
+   - Extracting text from PDFs to create a rich knowledge base.  
+
+5. **Python**  
+   - Backend logic for embedding, retrieval, and integration.
+
+---
+
+## **How to Run the Project**
+
+### **1. Clone the Repository**
+```bash
 git clone https://github.com/yourusername/personalized-learning-assistant.git
 cd personalized-learning-assistant
-
+```
 2. Set Up Environment Variables
 
 Create a .env file and add your Snowflake configuration and API keys:
@@ -106,3 +120,7 @@ Acknowledgments
 	•	Snowflake for Cortex AI and LLM integration.
 	•	Hugging Face for their incredible transformer models.
 	•	The open-source community for providing powerful tools to build this project.
+
+Demo
+
+📺 Watch the project demo here: https://www.youtube.com/watch?v=nHXmW8q9yx8
